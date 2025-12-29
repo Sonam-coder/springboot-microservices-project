@@ -30,12 +30,17 @@ product catalog, and order processing.
 
   ## Test APIs (VERY IMPORTANT)
 Use Postman.
+
  ** Test User Service
+ 
 - POST /auth/register
 - POST /auth/login
+  
 ** Test Product Service
+
 - POST /products
 - GET /products
+  
 ** Test Order Service
 - POST /orders
 - GET /orders/{id}
