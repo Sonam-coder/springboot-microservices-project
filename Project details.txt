@@ -1,0 +1,74 @@
+Project details
+---------------------------------
+Use the SAME details you entered on Register page:
+
+Example:
+
+Email (Username): sonam@gmail.com
+Password: password123
+
+
+-----------------------
+You might have seen this earlier in logs:
+
+Using generated security password: xxxxxxxx
+Username: user
+
+-----------------------------------------
+
+BACKEND SERVICE LINKS (Browser / Postman)
+✅ User Service (8081)
+
+Test user service
+
+http://localhost:8081/auth/test
+------------------------------------
+
+
+Register (POST – Postman)
+
+http://localhost:8081/auth/register
+----------------------------------------
+
+Login (POST – Postman)
+
+http://localhost:8081/auth/login
+-----------------------------------
+✅ Product Service (8082)
+
+Add product (POST – Postman)
+
+http://localhost:8082/products
+-------------------------------
+
+Get all products (GET – Browser / Postman)
+
+http://localhost:8082/products
+---------------------------------
+✅ Order Service (8083)
+
+Place order (POST – Postman)
+
+http://localhost:8083/orders
+-----------------------------
+
+Get orders by user (GET)
+
+http://localhost:8083/orders/user/{userId}
+------------------------------------------
+
+Example:
+
+http://localhost:8083/orders/user/1
+
+
+---------------------
+databace connection
+---------------------------------------------
+Username        : system
+Password        : Fintech
+Connection Type : Basic
+Hostname        : SonamAcer
+Port            : 1521
+Service Name    : XEPDB1
+
